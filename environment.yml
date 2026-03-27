@@ -1,0 +1,20 @@
+name: SMF
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch=2.4.1
+  - pytorch-cuda=12.4
+  - ipykernel
+  - pip
+  - pip:
+      - gymnasium
+      - matplotlib
+      - numpy
+      - scipy
+      - tensorboard
+      - tqdm
+      - tyro
