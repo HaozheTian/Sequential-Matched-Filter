@@ -226,7 +226,7 @@ class PPO():
         if self.ckpt_path == None:
             print('Training from scratch')
         else:
-            print('Training from the checkpoint in {self.ckpt_path}')
+            print(f'Loaded from checkpoint {self.ckpt_path}')
             self._load_ckpt(torch.load(self.ckpt_path, weights_only=True))
         self.optimizer = Adam(self.agent.parameters(), lr=self.lr, eps=1e-5)
 

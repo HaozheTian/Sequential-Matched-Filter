@@ -200,7 +200,7 @@ class SAC():
             self.qf1_target.load_state_dict(self.qf1.state_dict())
             self.qf2_target.load_state_dict(self.qf2.state_dict())
         else:
-            print('Training from the checkpoint in {self.ckpt_path}')
+            print(f'Loaded from checkpoint {self.ckpt_path}')
             self._load_ckpt(torch.load(self.ckpt_path, weights_only=True))
         self.q_optimizer = Adam(list(self.qf1.parameters()) + list(self.qf2.parameters()), lr=self.q_lr)
         self.actor_optimizer = Adam(list(self.actor.parameters()), lr=self.policy_lr)

@@ -40,6 +40,12 @@ conda activate SMF
 
 ## Usage
 
+### Quick Comparison of Pan-Tompkins, MF, and SMF
+
+```bash
+python compare.py
+```
+
 ### R-peak Detection with Pre-trained Models
 
 A demonstration notebook [`test.ipynb`](test.ipynb) is provided for running inference with trained checkpoints. The core is a `validate` function:

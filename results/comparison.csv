@@ -1,0 +1,6 @@
+method,precision,recall,F1
+Pan-Tompkins,0.668,0.496,0.569
+MF-PPO,0.909,0.921,0.915
+MF-SAC,0.900,0.916,0.908
+SMF-PPO,0.945,0.954,0.950
+SMF-SAC,0.954,0.957,0.956
