@@ -80,7 +80,7 @@ python train.py --agent ppo --eps_len 3 --template_len 8
 
 ## Citation
 
-If you find the code in this research useful, please cite:
+If you find the code in this repository useful, please cite:
 
 ```bibtex
 @article{tian2025machine,
