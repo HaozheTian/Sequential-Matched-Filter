@@ -26,7 +26,7 @@ This is the **official implementation** of the Sequential Matched Filter (SMF) a
 
 SMF is a lightweight, interpretable ECG R-peak detector that uses matched filters (MFs) to iteratively refine signals. 
 SMF bridges classical signal processing and reinforcement learning, offering an interpretable alternative to black-box deep models for ECG analysis.
-You can run a quick, cloud-based trial of SMF via Code Ocean [Code Ocean](https://doi.org/10.24433/CO.8370367.v1). *(If the link does not open directly, please copy and paste it into your browser.)*
+You can run a quick, cloud-based trial of SMF via Code Ocean [Code Ocean](https://doi.org/10.24433/CO.8370367.v1). *(If the link does not open directly, please copy and paste https://doi.org/10.24433/CO.8370367.v1 into your browser.)*
 
 ---
 
