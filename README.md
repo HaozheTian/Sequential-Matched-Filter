@@ -3,6 +3,7 @@
 <div align="center">
 
 [![arXiv](https://img.shields.io/badge/arXiv-2508.21652-b31b1b.svg)](https://arxiv.org/abs/2508.21652)
+[![Code Ocean](https://img.shields.io/badge/Code%20Ocean-Capsule-0A66C2.svg)](https://codeocean.com/capsule/6469437/tree/v1)
 
 <img src="files/FigSchematic.png" alt="SMF Schematic" width="700"/>
 
@@ -23,7 +24,9 @@ This is the **official implementation** of the Sequential Matched Filter (SMF) a
 > *Machine Intelligence Research*
 > [[arXiv]](https://arxiv.org/abs/2508.21652)
 
-SMF is a lightweight, interpretable ECG R-peak detector that uses matched filters (MFs) to iteratively refine signals.
+SMF is a lightweight, interpretable ECG R-peak detector that uses matched filters (MFs) to iteratively refine signals. 
+SMF bridges classical signal processing and reinforcement learning, offering an interpretable alternative to black-box deep models for ECG analysis.
+You can run a quick, cloud-based trial of SMF on [Code Ocean](https://codeocean.com/capsule/6469437/tree/v1).
 
 ---
 
